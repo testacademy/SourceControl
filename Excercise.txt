@@ -1,0 +1,30 @@
+1. Clone the repository.
+git clone https://github.com/testacademy/SourceControl.git
+
+2. Setup your email and username
+git config --global user.email "emailAddress"
+git config --global user.name "name"
+
+3. Check current branch
+git branch
+
+4. Check existing changes
+git status
+
+5. Create new branch 'add-new-file'
+git branch 'add-new-file'
+
+6. Checkout new branch
+git checkout add-new-file
+
+7. Add a text file to working directory.
+
+8. Add changes
+git add .
+
+9. Commit changes
+git commit -m "Message of the commit"
+
+10. Push changes and setup upstream branch
+git push --set-upstream origin add-new-file
+
